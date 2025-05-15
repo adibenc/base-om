@@ -1,0 +1,26 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+    <menuitem 
+		name="base_om" 
+      id="menu_base_om_main"
+      sequence="1"
+      action="base_om.partner_geo_view_aw"
+      />
+    <menuitem
+        id="menu_base_om_config"
+        name="Config"
+        parent="base_om.menu_base_om_main"
+    />
+    <menuitem id="menu_base_om_contract" name="Contracts" 
+      parent="base_om.menu_base_om_config" action="base_om_contract_aw"/>
+    <menuitem id="menu_geo_province" name="Geo Provinces" 
+      parent="base_om.menu_base_om_config" action="action_geo_province"/>
+    <menuitem id="menu_geo_city" name="Geo Cities" 
+      parent="base_om.menu_base_om_config" action="action_geo_city"/>
+    <menuitem id="menu_geo_kec" name="Geo Kecamatans" 
+      parent="base_om.menu_base_om_config" action="action_geo_kec"/>
+    <menuitem id="menu_geo_village" name="Geo Villages" 
+      parent="base_om.menu_base_om_config" action="action_geo_village"/>
+  </data>
+</odoo>

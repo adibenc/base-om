@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_partner_geo,base_om.res_partner_geo,model_base_om_res_partner_geo,base.group_user,1,1,1,1
+access_geo_province,base_om.geo_province,model_base_om_geo_province,base.group_user,1,1,1,1
+access_geo_city,base_om.geo_city,model_base_om_geo_city,base.group_user,1,1,1,1
+access_geo_kec,base_om.geo_kec,model_base_om_geo_kec,base.group_user,1,1,1,1
+access_geo_village,base_om.geo_village,model_base_om_geo_village,base.group_user,1,1,1,1

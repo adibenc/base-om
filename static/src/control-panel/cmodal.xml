@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+	<t t-name="base_om.ImportRecordModal">
+		<Dialog size="'md'" title="'test'">
+			<form class="o_form" string="Import Purchase Items">
+				<div>
+					<input class="o_input" name="file_name"/>
+					<FSFileField name="'tmp_file'"/>
+					<!-- <group>
+						<field name='file' filename='file_name' />
+					</group> -->
+				</div>
+				<footer>
+					<button class="btn btn-primary" name='action_import_file' string="Import" type='object'/>
+					<button class="btn btn-secondary" string="Cancel" special='cancel' />
+				</footer>
+			</form>
+		</Dialog>
+	</t>
+
+</templates>
